@@ -1,8 +1,8 @@
-let mes_Nascimento = 3;
+let mes_Nascimento = 2;
 
 mes_Nascimento = parseInt(mes_Nascimento);
 
-if (mes_Nascimento < 1 || mes_Nascimento > 12) {
+if (mes_Nascimento < 1 || mes_Nascimento > 2) {
     console.log("Esse Mês não existe! Por favor digite um mês existente");
 } else {
     console.log("Os meses antes do seu aniversário são:");
